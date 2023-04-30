@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/43124feaf5.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="music-player">
+      <div class="player-header">
+        <img id="cover" src="" alt="Album Cover">
+        <h1 id="song-name">Song</h2>
+        <p id="artist-name">Artist</p>
+        <input type="range" id="seek-slider" min="0" max="100" step="1">
+        <span id="current-time">0:00</span>
+        <span id="duration">0:00</span>
+        
+       
+        <div class="player-controls">
+          <button id="prev-btn" ><i class="fas fa-backward"></i></button>
+          <button id="play-btn" ><i class="fas fa-play"></i> </button>
+          <button id="stop-btn" ><i class="fas fa-stop"></i></button>
+          <button id="next-btn" ><i class="fas fa-forward"></i></button>
+        </div>
+        <ul id="song-list"></ul>
+      </div>
+      
+      
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
